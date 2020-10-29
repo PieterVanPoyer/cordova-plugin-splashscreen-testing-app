@@ -28,6 +28,11 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
+
+        setTimeout(function() {
+            console.log('show the splashscreen');
+            navigator.splashscreen.show();
+        }, 1000);
     },
 
     // Update DOM on a Received Event

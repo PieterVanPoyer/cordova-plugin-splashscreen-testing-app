@@ -9,6 +9,9 @@
     </author>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
+    <!-- <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="SplashScreenDelay" value="10000" /> -->
+    <!-- <preference name="android-minSdkVersion" value="21"/> -->
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -18,9 +21,27 @@
     <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
+        <icon density="mdpi" src="res/mipmap-mdpi/ic_launcher.png" />
+        <icon density="hdpi" src="res/mipmap-hdpi/ic_launcher.png" />
+        <icon density="xhdpi" src="res/mipmap-xhdpi/ic_launcher.png" />
+        <icon density="xxhdpi" src="res/mipmap-xxhdpi/ic_launcher.png" />
+        <icon density="xxxhdpi" src="res/mipmap-xxxhdpi/ic_launcher.png" />
+
+        <splash density="land-hdpi" src="res/android/splash/drawable-land-hdpi/screen.webp" />
+        <splash density="land-ldpi" src="res/android/splash/drawable-land-ldpi/screen.webp" />
+        <splash density="land-mdpi" src="res/android/splash/drawable-land-mdpi/screen.webp" />
+        <splash density="land-xhdpi" src="res/android/splash/drawable-land-xhdpi/screen.webp" />
+        <splash density="land-xxhdpi" src="res/android/splash/drawable-land-xxhdpi/screen.webp" />
+        <splash density="land-xxxhdpi" src="res/android/splash/drawable-land-xxxhdpi/screen.webp" />
+
+        <splash density="port-hdpi" src="res/android/splash/drawable-port-hdpi/screen.webp" />
+        <splash density="port-ldpi" src="res/android/splash/drawable-port-ldpi/screen.webp" />
+        <splash density="port-mdpi" src="res/android/splash/drawable-port-mdpi/screen.webp" />
+        <splash density="port-xhdpi" src="res/android/splash/drawable-port-xhdpi/screen.webp" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+
 </widget>
