@@ -2,6 +2,6 @@
 
 ````
 npm i
-npx cordova prepare android
-npx cordova run android
+npx cordova prepare android --verbose
+npx cordova run android --verbose
 ````
