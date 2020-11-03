@@ -16,7 +16,7 @@
     "cordova": "^10.0.0"
   },
   "devDependencies": {
-    "cordova-android": "^9.0.0",
+    "cordova-android": "git+https://github.com/PieterVanPoyer/cordova-android.git#features/allow-changing-min-sdk-version",
     "cordova-plugin-splashscreen": "^6.0.0",
     "cordova-plugin-whitelist": "^1.3.4"
   },
